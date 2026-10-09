@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lwin Hein Khant — Java Developer, Bangkok</title>
+  <meta name="description" content="Portfolio of Lwin Hein Khant (Ko Furry) — Java, Spring Boot, PostgreSQL. Project-based developer in Bangkok: shipped features, architecture documentation, and systems I've read line by line." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a class="nav__logo" href="#top">LHK<span class="dot">.</span></a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#numbers">Numbers</a>
+        <a href="#background">Background</a>
+        <a href="#proof">Proof</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav__github" href="https://github.com/FurryForWhat" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="kicker reveal">Lwin Hein Khant · Ko Furry</p>
+        <h1 class="hero__title reveal">
+          I build backends that <em>hold up in production.</em>
+        </h1>
+        <p class="hero__lede reveal">
+          Java · Spring Boot · PostgreSQL. I read a system before I write to it —
+          architecture notes first, clean features after.
+        </p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--solid" href="mailto:lwinbusiness219@gmail.com">Email me</a>
+          <a class="btn" href="#work">See the work</a>
+          <a class="btn" href="https://github.com/FurryForWhat" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+
+        <dl class="hero__meta reveal">
+          <div>
+            <dt>Based in</dt>
+            <dd>Bangkok, Thailand · UTC+7</dd>
+          </div>
+          <div>
+            <dt>Languages</dt>
+            <dd>Burmese · English</dd>
+          </div>
+          <div>
+            <dt>Focus</dt>
+            <dd>Backend systems · APIs · Databases</dd>
+          </div>
+          <div>
+            <dt>Availability</dt>
+            <dd>Immediate · Remote or onsite</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="marquee reveal" aria-hidden="true">
+        <div class="marquee__track" id="marquee-track">
+          <span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>JPA / Hibernate</span><span>Spring Security</span><span>JWT</span><span>Maven</span><span>Docker</span><span>GitHub Actions</span><span>Lombok</span><span>MapStruct</span><span>Swagger</span><span>Git</span><span>Linux</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NUMBERS ============ -->
+    <section class="section" id="numbers">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__num">01</span>
+          <p class="section__eyebrow">By the numbers</p>
+          <h2>Every figure is <em>checkable.</em></h2>
+          <p class="section__lede">No rounded-up claims — each of these points to a public repository you can open right now.</p>
+        </header>
+
+        <div class="stats reveal">
+          <div class="stat">
+            <span class="stat__n">9</span>
+            <span class="stat__label">commits shipped to the OPOM <code>dev</code> branch, Oct 2025</span>
+          </div>
+          <div class="stat">
+            <span class="stat__n">325</span>
+            <span class="stat__label">classes in the production Spring Boot system I analyzed &amp; documented</span>
+          </div>
+          <div class="stat">
+            <span class="stat__n">30+</span>
+            <span class="stat__label">public repositories on GitHub — Java, Python, C &amp; more</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__num">02</span>
+          <p class="section__eyebrow">Selected work</p>
+          <h2>What I've built, and <em>what I've read.</em></h2>
+          <p class="section__lede">Three tracks: Java backend work, side products, and the school projects where it all started.</p>
+        </header>
+
+        <!-- Track A -->
+        <div class="track reveal">
+          <div class="track__head">
+            <span class="track__label">Java Backend</span>
+            <span class="track__count">3 projects</span>
+          </div>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">01</span><span class="card__role">Architecture &amp; documentation</span></div>
+              <h3 class="card__title">Theinngu 32 — Yogi Management System</h3>
+              <p class="card__problem">A 325-class production Spring Boot platform where no single document explained how a request actually flows.</p>
+              <p class="card__outcome">Outcome — authored the full request-flow, JWT auth cycle, async/scheduled-task and class-diagram documentation: now the map the team reads before they debug.</p>
+              <ul class="chips">
+                <li>Spring Boot 3.3</li><li>Java 21</li><li>Spring Security</li><li>JWT</li><li>JPA / Hibernate</li><li>PostgreSQL</li><li>S3</li><li>Apache POI</li><li>Docker</li><li>GitHub Actions</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm" href="https://github.com/TheinnguDataCenter/theinngu_backend" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">02</span><span class="card__role">Feature developer</span></div>
+              <h3 class="card__title">1P1M Portfolio Backend — <span class="mono">dev_profile</span></h3>
+              <p class="card__problem">Dev profiles existed in the product but had no API behind them — nothing to create, read, update or delete.</p>
+              <p class="card__outcome">Outcome — shipped the complete feature end-to-end: controller, service, repository, DTOs, pagination and the JWT security whitelist. 9 commits merged into <code>dev</code> (Oct 2025).</p>
+              <ul class="chips">
+                <li>Java</li><li>Spring Boot</li><li>Spring Security</li><li>JWT</li><li>PostgreSQL</li><li>Maven</li><li>Git</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm" href="https://github.com/one-project-one-month/1P1M_Portfolio_Backend" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">03</span><span class="card__role">Solo build · in progress</span></div>
+              <h3 class="card__title">HRMS</h3>
+              <p class="card__problem">Employee data with no schema behind it — departments, roles and records living in tables nobody designed.</p>
+              <p class="card__outcome">Outcome — designed the full ERD by hand first (draw.io); the Java implementation is being built on top of it now.</p>
+              <ul class="chips">
+                <li>Java</li><li>ERD / relational design</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm" href="https://github.com/FurryForWhat/HRMS" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Track B -->
+        <div class="track reveal">
+          <div class="track__head">
+            <span class="track__label">More projects</span>
+            <span class="track__count">3 projects</span>
+          </div>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">04</span><span class="card__role">AI side project</span></div>
+              <h3 class="card__title">EazyPortfolio</h3>
+              <p class="card__problem">Portfolios usually get written from README paraphrasing — not from what people actually shipped.</p>
+              <p class="card__outcome">Outcome — a pipeline that pulls commit hotspots over the GitHub REST API, lets an LLM reason about them, validates the output and publishes a live portfolio page. Deployed on Vercel, covered by Playwright e2e tests.</p>
+              <ul class="chips">
+                <li>Next.js</li><li>TypeScript</li><li>Supabase</li><li>LLM API</li><li>GitHub REST</li><li>Playwright</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm btn--solid" href="https://eazy-portfolio-eight.vercel.app" target="_blank" rel="noopener">Live ↗</a>
+                <a class="btn btn--sm" href="https://github.com/FurryForWhat/EazyPortfolio" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">05</span><span class="card__role">Desktop app</span></div>
+              <h3 class="card__title">Banking-Project</h3>
+              <p class="card__problem">Banking flows to click through — accounts, transactions and statements with a real interface, not a console.</p>
+              <p class="card__outcome">Outcome — interactive Java Swing desktop application: account lifecycle, transaction processing and UI state handling in one codebase.</p>
+              <ul class="chips">
+                <li>Java</li><li>Swing</li><li>OOP</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm" href="https://github.com/FurryForWhat/Banking-Project" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">06</span><span class="card__role">Backend</span></div>
+              <h3 class="card__title">mini_lms</h3>
+              <p class="card__problem">Courses, enrollments and assignments for a class, tracked in one place.</p>
+              <p class="card__outcome">Outcome — learning-management backend in Java: course management, enrollment, user handling and assignment tracking.</p>
+              <ul class="chips">
+                <li>Java</li><li>Backend</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm" href="https://github.com/FurryForWhat/mini_lms" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Track C -->
+        <div class="track reveal">
+          <div class="track__head">
+            <span class="track__label">📼 Back to the time — school fun</span>
+            <span class="track__count">3 projects</span>
+          </div>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">07</span><span class="card__role">IoT · Arduino</span></div>
+              <h3 class="card__title">GreenHouse</h3>
+              <p class="card__problem">A greenhouse that reports for itself — sensors and relays on Arduino, telemetry through NodeMCU.</p>
+              <p class="card__outcome">Outcome — the first thing I built that talked to the physical world: firmware on two boards, reading conditions and acting on them.</p>
+              <ul class="chips">
+                <li>C++</li><li>Arduino</li><li>NodeMCU</li><li>IoT</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm btn--video" data-video="greenhouse" href="#" target="_blank" rel="noopener">Video demo</a>
+                <a class="btn btn--sm" href="https://github.com/FurryForWhat/GreenHouse" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">08</span><span class="card__role">IoT · team project</span></div>
+              <h3 class="card__title">WeatherProject</h3>
+              <p class="card__problem">A weather station built with a teammate — readings captured on Arduino, handled on the Python side.</p>
+              <p class="card__outcome">Outcome — hardware and software split across two languages: firmware collecting, Python processing.</p>
+              <ul class="chips">
+                <li>Python</li><li>Arduino</li><li>IoT</li><li>Collaboration</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm btn--video" data-video="weatherproject" href="#" target="_blank" rel="noopener">Video demo</a>
+                <a class="btn btn--sm" href="https://github.com/FurryForWhat/WeatherProject" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__body">
+              <div class="card__meta"><span class="card__idx">09</span><span class="card__role">C · data structures</span></div>
+              <h3 class="card__title">online bank — AVL tree</h3>
+              <p class="card__problem">A bank that stores every account in a tree — and no library calls allowed for the tree itself.</p>
+              <p class="card__outcome">Outcome — every rotation, balance factor and node operation written by hand in C, records persisted to text files. Which is why library methods never feel like magic to me: I already rebuilt them once, so a method deep-dive is just reading code I understand.</p>
+              <ul class="chips">
+                <li>C</li><li>AVL tree</li><li>Data structures</li><li>File I/O</li>
+              </ul>
+              <div class="card__links">
+                <a class="btn btn--sm" href="https://github.com/FurryForWhat/onlinebank_AVLTree" target="_blank" rel="noopener">Source ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW I WORK ============ -->
+    <section class="section" id="process">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__num">03</span>
+          <p class="section__eyebrow">How I work</p>
+          <h2>Read first. <em>Then write.</em></h2>
+          <p class="section__lede">The same process whether it's a feature in a team repo or a side project at midnight.</p>
+        </header>
+
+        <div class="steps reveal">
+          <div class="step">
+            <span class="step__n">01</span>
+            <h3>Read the system</h3>
+            <p>Entities, request flow, security config and background jobs get mapped before a single line changes. No feature starts without a picture of where it fits.</p>
+          </div>
+          <div class="step">
+            <span class="step__n">02</span>
+            <h3>Design on paper</h3>
+            <p>Schema, DTOs, API contract and error paths are settled before code — so the implementation is transcription, not decision-making under pressure.</p>
+          </div>
+          <div class="step">
+            <span class="step__n">03</span>
+            <h3>Build &amp; document</h3>
+            <p>Controller → service → repository end-to-end, then diagrams and a README, so the next reader never has to guess what I already knew.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BACKGROUND ============ -->
+    <section class="section" id="background">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__num">04</span>
+          <p class="section__eyebrow">Background</p>
+          <h2>Where I've <em>been.</em></h2>
+          <p class="section__lede">Trees in C, sensors on Arduino, GUIs in Swing — then a deliberate move into backend systems.</p>
+        </header>
+
+        <div class="bg reveal">
+          <div class="bg__story">
+            <p>I started with C and C++ coursework — binary trees, memory and algorithms written by hand, before I ever imported a package.</p>
+            <p>Then came Python scripts, IoT boards with a teammate, and Java: Swing desktop apps, an inventory system, an HRMS whose schema I designed myself.</p>
+            <p>In One Project One Month I shipped a real feature into a team codebase — 9 commits against a shared <code>dev</code> branch, review and all. Since then I've been deep in a 325-class production Spring Boot system, writing the documentation I wish it came with.</p>
+
+            <ol class="timeline">
+              <li><span class="timeline__yr">2023</span><span class="timeline__txt">C / C++ coursework — trees, memory, algorithms by hand</span></li>
+              <li><span class="timeline__yr">2024</span><span class="timeline__txt">Python, IoT boards (Arduino + NodeMCU) and Java GUI projects</span></li>
+              <li><span class="timeline__yr">2025</span><span class="timeline__txt">Shipped <code>dev_profile</code> feature into the OPOM team backend</span></li>
+              <li><span class="timeline__yr">2026</span><span class="timeline__txt">Full architecture analysis &amp; docs for a production Spring Boot system</span></li>
+              <li><span class="timeline__yr">Now</span><span class="timeline__txt">HRMS build, backend depth (testing, transactions, system design)</span></li>
+            </ol>
+          </div>
+
+          <div class="bg__lists">
+            <div class="bg__block">
+              <h3 class="bg__h">Established capabilities</h3>
+              <ul>
+                <li>Reading unfamiliar Spring Boot codebases fast — controllers, services, AOP, security chains</li>
+                <li>Feature development end-to-end: CRUD with pagination, validation and security whitelisting</li>
+                <li>Architecture documentation — request-flow diagrams, JWT auth cycles, class diagrams</li>
+                <li>Relational modeling, starting from my own ERD upward</li>
+              </ul>
+            </div>
+            <div class="bg__block">
+              <h3 class="bg__h">Currently learning</h3>
+              <ul>
+                <li>Testing that matters — JUnit + Testcontainers</li>
+                <li>Deeper Spring — transactions, caching, concurrency</li>
+                <li>System design for backend conversations</li>
+              </ul>
+              <h3 class="bg__h bg__h--gap">Languages</h3>
+              <ul class="langs">
+                <li><strong>Burmese</strong><span>Native</span></li>
+                <li><strong>English</strong><span>Working</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROOF ============ -->
+    <section class="section" id="proof">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__num">05</span>
+          <p class="section__eyebrow">Proof</p>
+          <h2>Not just <em>my word.</em></h2>
+          <p class="section__lede">Everything above points at something public — a repo, a commit history, a live site.</p>
+        </header>
+
+        <div class="proof reveal">
+          <div class="proof__cards">
+            <a class="proof__item" href="https://github.com/FurryForWhat" target="_blank" rel="noopener">
+              <span class="proof__k">GitHub</span>
+              <span class="proof__v">30+ public repos, contribution history open</span>
+              <span class="proof__go">Check it ↗</span>
+            </a>
+            <a class="proof__item" href="https://github.com/one-project-one-month/1P1M_Portfolio_Backend/commits/dev/?author=Furry33" target="_blank" rel="noopener">
+              <span class="proof__k">Shipped code</span>
+              <span class="proof__v">9 commits as <em>Furry33</em> on the OPOM <code>dev</code> branch</span>
+              <span class="proof__go">Check it ↗</span>
+            </a>
+            <a class="proof__item" href="https://github.com/FurryForWhat/FurryForWhat" target="_blank" rel="noopener">
+              <span class="proof__k">Profile README</span>
+              <span class="proof__v">Stack, stats and links in one place</span>
+              <span class="proof__go">Check it ↗</span>
+            </a>
+            <a class="proof__item" href="https://eazy-portfolio-eight.vercel.app" target="_blank" rel="noopener">
+              <span class="proof__k">Live product</span>
+              <span class="proof__v">EazyPortfolio — deployed, with e2e tests</span>
+              <span class="proof__go">Open it ↗</span>
+            </a>
+          </div>
+
+          <div class="proof__stats">
+            <img height="165" alt="GitHub stats for FurryForWhat" src="https://github-readme-stats.vercel.app/api?username=FurryForWhat&show_icons=true&theme=tokyonight&hide_border=true&border_radius=16" />
+            <img height="165" alt="Top languages for FurryForWhat" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FurryForWhat&layout=compact&theme=tokyonight&hide_border=true&border_radius=16" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--contact" id="contact">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__num">06</span>
+          <p class="section__eyebrow">Contact</p>
+          <h2>Let's build <em>something.</em></h2>
+          <p class="section__lede">
+            Tell me what you're working on — whether it's a Spring Boot service that needs a
+            careful pair of hands, or a codebase that needs reading first. I'll reply honestly
+            about how I can help.
+          </p>
+        </header>
+
+        <div class="contact reveal">
+          <a class="contact__big" href="mailto:lwinbusiness219@gmail.com">lwinbusiness219@gmail.com</a>
+          <div class="contact__row">
+            <a class="btn btn--sm btn--solid" href="https://wa.me/qr/6APAJ2MJJHWTG1?s=p" target="_blank" rel="noopener">WhatsApp (business) ↗</a>
+            <a href="https://www.linkedin.com/in/kofurry/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://github.com/FurryForWhat" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://leetcode.com/u/furryforwhat/" target="_blank" rel="noopener">LeetCode ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="year">2026</span> Lwin Hein Khant</span>
+      <span>Bangkok, Thailand · UTC+7</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
